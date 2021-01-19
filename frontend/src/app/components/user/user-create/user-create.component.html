@@ -1,0 +1,23 @@
+<mat-card>
+    <mat-card-title>Novo Usuário</mat-card-title>
+    <form #form="ngForm" autocomplete="off">
+        <mat-form-field>
+            <input matInput maxlength="50" placeholder="Nome" [(ngModel)]="user.name" name="name" required>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput maxlength="50" placeholder="E-mail" [(ngModel)]="user.email" name="email" required email>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput minlength="10" maxlength="10" type="password" #password placeholder="Senha" [(ngModel)]="user.password" name="password" required>
+            <mat-hint>{{password.value?.length || 0}}/10</mat-hint>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Grupo</mat-label>
+            <mat-select [(ngModel)]="user.userGroup" #userGroup name="userGroup" required>                
+                <mat-option *ngFor="let userGroup of userGroups" [value]="userGroup">{{userGroup.name}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </form>    
+    <button mat-raised-button (click)="createUser()" color="primary" [disabled]="!form.valid">Salvar</button>
+    <button mat-raised-button (click)="cancel()">Cancelar</button>
+</mat-card>

@@ -1,0 +1,20 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap="64">
+        <mat-nav-list class="nav-list">
+            <a mat-list-item routerLink="/"><i class="material-icons">home</i>Início</a>
+            <a mat-list-item routerLink="/products"><i class="material-icons">storefront</i>Produtos</a>
+            <a mat-list-item routerLink="/users"><i class="material-icons">face</i>Usuários</a>
+            <!--<a mat-list-item><i class="material-icons">admin_panel_settings</i>Grupos de Usuários</a>
+            <a mat-list-item><i class="material-icons">account_box</i>Fornecedores</a>
+            <a mat-list-item><i class="material-icons">record_voice_over</i>Clientes</a>
+            <a mat-list-item><i class="material-icons">trending_up</i>Receitas</a>
+            <a mat-list-item><i class="material-icons">trending_down</i>Despesas</a>
+            <a mat-list-item><i class="material-icons">work</i>Cobrança</a>
+            <a mat-list-item><i class="material-icons">visibility</i>Gestão Fiscal</a>
+            <a mat-list-item><i class="material-icons">touch_app</i>Relatórios</a>-->
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="content">
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

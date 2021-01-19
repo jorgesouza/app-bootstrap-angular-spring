@@ -1,0 +1,166 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": "Mouse",
+      "price": 59.85
+    },
+    {
+      "name": "Notebook",
+      "price": "120",
+      "id": 5
+    },
+    {
+      "name": "ed",
+      "price": "1212",
+      "id": 6
+    },
+    {
+      "name": "teste",
+      "price": "21212",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Jorge Souza",
+      "email": "jorgee.souza@gmail.com",
+      "userGroup": {
+        "id": "ADMINISTRADOR",
+        "name": "Administrador"
+      },
+      "password": "123",
+      "createdAt": "2021-01-14T20:19:54.619Z"
+    },
+    {
+      "id": 2,
+      "name": "Patrícia Pedrosa",
+      "email": "patricia.pedrosaa@gmail.com",
+      "userGroup": {
+        "id": "ADMINISTRADOR",
+        "name": "Administrador"
+      },
+      "password": "123",
+      "createdAt": "2021-01-14T20:19:54.619Z"
+    },
+    {
+      "userGroup": {
+        "id": "ADMINISTRADOR",
+        "name": "Administrador"
+      },
+      "createdAt": "2021-01-15T17:53:16.306Z",
+      "name": "Rodrigo Batista",
+      "email": "rodrigosts@gmail.com",
+      "password": "1234567811",
+      "id": 3
+    },
+    {
+      "userGroup": {
+        "id": "FINANCEIRO",
+        "name": "Financeiro"
+      },
+      "createdAt": "2021-01-15T17:53:46.045Z",
+      "name": "Pedro Aguiar",
+      "email": "pedro@financeiro.com",
+      "password": "1874983274",
+      "id": 4
+    },
+    {
+      "userGroup": {
+        "id": "FINANCEIRO",
+        "name": "Financeiro"
+      },
+      "createdAt": "2021-01-15T18:25:36.643Z",
+      "name": "Teste",
+      "email": "soiajsios@mailc.com",
+      "password": "2320938092",
+      "id": 5
+    },
+    {
+      "userGroup": {
+        "id": "FINANCEIRO",
+        "name": "Financeiro"
+      },
+      "createdAt": "2021-01-15T18:51:16.220Z",
+      "name": "Teste Teste",
+      "email": "teste@gmail.com",
+      "password": "3208309283",
+      "id": 6
+    },
+    {
+      "userGroup": {
+        "id": "FINANCEIRO",
+        "name": "Financeiro"
+      },
+      "createdAt": "2021-01-15T18:55:26.327Z",
+      "name": "Teste",
+      "email": "teste@gmail.com",
+      "password": "2121820182",
+      "id": 7
+    },
+    {
+      "userGroup": {
+        "id": "FINANCEIRO",
+        "name": "Financeiro"
+      },
+      "createdAt": "2021-01-15T18:55:40.104Z",
+      "name": "teste@gmail.com",
+      "email": "teste@gmail.com",
+      "password": "teste@gmai",
+      "id": 8
+    }
+  ],
+  "users-groups": [
+    {
+      "id": "ADMINISTRADOR",
+      "name": "Administrador",
+      "permissions": [
+        {
+          "id": "ROLE_PESQUISAR_USUARIO",
+          "name": "Pesquisar Usuário"
+        },
+        {
+          "id": "ROLE_CADASTRAR_USUARIO",
+          "name": "Cadastrar Usuário"
+        },
+        {
+          "id": "ROLE_ATUALIZAR_USUARIO",
+          "name": "Atualizar Usuário"
+        },
+        {
+          "id": "ROLE_REMOVER_USUARIO",
+          "name": "Remover Usuário"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Financeiro",
+      "permissions": [
+        {
+          "id": "ROLE_PESQUISAR_USUARIO",
+          "name": "Pesquisar Usuário"
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "id": "ROLE_PESQUISAR_USUARIO",
+      "name": "Pesquisar Usuário"
+    },
+    {
+      "id": "ROLE_CADASTRAR_USUARIO",
+      "name": "Cadastrar Usuário"
+    },
+    {
+      "id": "ROLE_ATUALIZAR_USUARIO",
+      "name": "Atualizar Usuário"
+    },
+    {
+      "id": "ROLE_REMOVER_USUARIO",
+      "name": "Remover Usuário"
+    }
+  ]
+}

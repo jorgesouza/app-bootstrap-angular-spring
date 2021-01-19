@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.red {
+    color: #e35e6b;
+}
+
+.v-middle {
+    vertical-align: middle;
+}
+
+.msg-success {
+    background-color: #4caf50;
+    font-weight: 500;
+    color: #fff;
+}
+
+.mat-simple-snackbar-action {
+    color: white !important;
+}
+
+.msg-error {
+    background-color: #f44336;
+    font-weight: 500;
+    color: #fff;
+}
+
+/*
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+        margin: 0 auto;
+    }
+}*/
